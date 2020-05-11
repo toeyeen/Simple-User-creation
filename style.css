@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=latin-ext,vietnamese');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.s-btn {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:10px;
+  align-items: c;
+}
+
+.small-sbtn {
+  width: 50px;
+  height: 25px;
+  font-size: 12px;
+}
+
+.medium-sbtn {
+  width: 70px;
+  height: 30px;
+}
+
+.big-sbtn {
+  width: 90px;
+  height: 40px;
+}
+
+input[type="image"] {
+  outline: none;
+}
+
+
+input[type="image"]:hover {
+  transform: scale(0.95);
+}
+
+.danger {
+  color: red;
+}
+
+.form-group .s-close {
+  position: relative;
+  left: 155px;
+  bottom: 14px;
+  display: none;
+}
+
+.update-btn, .delete-btn {
+  display: none;
+}
